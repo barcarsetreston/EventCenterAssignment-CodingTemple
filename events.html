@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whispering Orchards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="name">Whispering Orchards</h1>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <nav class="navbar" id="navbar"> 
+            <a href="index.html">Home</a>
+            <a href="events.html" class="active">Events</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Events We Host</h2>
+            <ul class="event-list">
+                <li>
+                    <article>
+                        <h3>Weddings</h3>
+                        <img src="https://images.squarespace-cdn.com/content/v1/6434c38851d8e47d99464623/c941df03-b07d-424f-a9b5-5ed42fe63262/Orchard-Barn-Wedding%40julia_rau_photography-34.jpg" alt="Wedding at orchard venue">
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <h3>Receptions</h3>
+                        <img src="https://www.brides.com/thmb/PZkRiRg-bHfvXhptMxUgoudfDZU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/orchard-wedding-venues-quail-ranch-jennifer-louie-9dafdd6aae084cb288f5fea0a923781c.jpg" alt="Reception event">
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <h3>Private Parties</h3>
+                        <img src="https://i0.wp.com/highcountryorchard.com/wp-content/uploads/2025/04/download-4.jpg?ssl=1" alt="Private party at orchard">
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Pricing</h2>
+            <table>
+                <tr>
+                    <th>Package</th>
+                    <th>Guests</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Simple</td>
+                    <td>50</td>
+                    <td>$2,500</td>
+                </tr>
+
+                <tr>
+                    <td>Signature</td>
+                    <td>100</td>
+                    <td>$4,000</td>
+                </tr>
+
+                <tr>
+                    <td>Luxury</td>
+                    <td>150</td>
+                    <td>$5,500</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Whispering Orchards</p>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navbar = document.getElementById('navbar');
+
+        hamburger.addEventListener('click', () => {
+            navbar.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>

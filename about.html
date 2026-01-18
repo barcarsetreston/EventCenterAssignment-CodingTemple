@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whispering Orchards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="name">Whispering Orchards</h1>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <nav class="navbar" id="navbar"> 
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="about.html" class="active">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Whispering Orchards was created to provide a beautiful and welcoming place for life's most important moments. Our venue combines nature, elegance, and comfort.</p>
+            <img src="https://jesslizettephotography.com/wp-content/uploads/sites/27359/2022/08/menifee-california-wedding-at-the-orchard-by-wedgewood-weddings-2-1024x683.jpg" alt="Venue">
+        </section>
+
+        <section class="about">
+            <h2>Our Mission</h2>
+            <p>Our mission is to create unforgettable experiences by offering a peaceful, natural setting where guests can celebrate love, family, and community.</p>
+            <img src="https://www.wedgewoodweddings.com/hs-fs/hubfs/3.0%20Venue%20Images/The%20Orchard/10%20-%20The%20Orchard%20-%20ORCH%20-%20Reception%20Lawn%20-%20reception.jpg?width=1920&height=1080&name=10%20-%20The%20Orchard%20-%20ORCH%20-%20Reception%20Lawn%20-%20reception.jpg" alt="Venue2">
+        </section>
+
+        <section class="about">
+            <h2>Our Team</h2>
+            <p>Whispering Orchards is run by a small team of event professionals who are passionate about hospitality, planning, and attention to detail.</p>
+            <img src="https://www.uniquelyset.com/wp-content/uploads/elementor/thumbs/BMP_5530-p2a2cn3gmkyacdoh3hn5fnj2duheh4ixqbj2pql6ew.jpg" alt="Venue3">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Whispering Orchards</p>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navbar = document.getElementById('navbar');
+
+        hamburger.addEventListener('click', () => {
+            navbar.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
